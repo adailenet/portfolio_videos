@@ -1,0 +1,91 @@
+@font-face {
+    font-family: "feroniapi";
+    src: url(/src/typo/feroniapi.otf);
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "instrument";
+    src: url(/src/typo/instrument.ttf);
+    font-style: normal;
+}
+
+
+
+body {
+    background-color: #EDE4C2;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    font-family: "instrument";
+}
+
+.menu-central {
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+h1 {
+    font-family: "feroniapi", serif;
+    color: #612D53;
+}
+
+h3 {
+    color: #ACBFA4
+}
+
+ul {
+    list-style-type: none;
+    justify-content: center;
+}
+
+.menu-central a {
+    text-decoration: none;
+    color: #612D53;
+    font-size: 18px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.menu-central a:hover {
+    color: #D96868;
+}
+.en-bas {
+    position: fixed;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 14px;
+    color: #ACBFA4;
+}
+
+.en-bas:hover {
+    color: #6B7445;
+}
+
+.title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+p {
+    color: #262626;
+    max-width: 800px;
+    font-size: 16px;
+}
+
+.video {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 100%;
+    height: auto;
+    margin: 20px;
+}
+
+a {
+    text-decoration: none;
+}
