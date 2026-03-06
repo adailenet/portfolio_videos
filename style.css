@@ -1,12 +1,12 @@
 @font-face {
     font-family: "feroniapi";
-    src: url(/src/typo/feroniapi.otf);
+    src: url(src/typo/feroniapi.otf);
     font-style: normal;
 }
 
 @font-face {
     font-family: "instrument";
-    src: url(/src/typo/instrument.ttf);
+    src: url(src/typo/instrument.ttf);
     font-style: normal;
 }
 
